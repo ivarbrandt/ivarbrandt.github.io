@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.altus.helper" name="Altus Helper" version="0.3.1" provider-name="Ivar Brandt">
+</addon><addon id="script.altus.helper" name="Altus Helper" version="0.3.2" provider-name="Ivar Brandt">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.19.1" />
@@ -39,7 +39,7 @@
         <description lang="en_NZ">Altus Helper for the Altus Skin.</description>
         <description lang="en_US">Altus Helper for the Altus Skin.</description>
     </extension>
-</addon><addon id="script.nimbus.helper" name="Nimbus Helper" version="0.0.51" provider-name="Ivar Brandt">
+</addon><addon id="script.nimbus.helper" name="Nimbus Helper" version="0.0.52" provider-name="Ivar Brandt">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.19.1" />
@@ -61,7 +61,7 @@
         <description lang="en_NZ">Nimbus Helper for the Nimbus Skin.</description>
         <description lang="en_US">Nimbus Helper for the Nimbus Skin.</description>
     </extension>
-</addon><addon id="skin.altus" version="0.6.2" name="Altus" provider-name="Ivar Brandt">
+</addon><addon id="skin.altus" version="0.6.3" name="Altus" provider-name="Ivar Brandt">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="resource.images.weathericons.white" version="0.0.1" />
@@ -86,7 +86,7 @@
 		<description lang="en_NZ">Altus Skin</description>
 		<description lang="en_US">Altus Skin</description>
 	</extension>
-</addon><addon id="skin.nimbus" version="0.1.39" name="Nimbus" provider-name="Ivar Brandt">
+</addon><addon id="skin.nimbus" version="0.1.40" name="Nimbus" provider-name="Ivar Brandt">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.nimbus.helper" version="0.0.50" />
