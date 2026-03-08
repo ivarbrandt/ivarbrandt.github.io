@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.ivarbrandt" name="ivarbrandt's Repository" version="1.0.2" provider-name="Ivar Brandt">
+    <extension point="xbmc.addon.repository" name="ivarbrandt's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/ivarbrandt/ivarbrandt.github.io/main/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/ivarbrandt/ivarbrandt.github.io/main/packages/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/ivarbrandt.github.io/main/packages/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ivarbrandt's Repository</summary>
+        <description>Kodi repository for the FENtastic skin and other projects</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="script.altus.helper" name="Altus Helper" version="0.3.0" provider-name="Ivar Brandt">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.19.1" />
+        <import addon="script.module.pil" version="1.1.7" />
+    </requires>
+    <extension point="xbmc.python.library" library="resources/lib/default.py" />
+    <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <news />
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            
+        </assets>
+        <description lang="en_GB">Altus Helper for the Altus Skin.</description>
+        <description lang="en_NZ">Altus Helper for the Altus Skin.</description>
+        <description lang="en_US">Altus Helper for the Altus Skin.</description>
+    </extension>
+</addon><addon id="script.nimbus.helper" name="Nimbus Helper" version="0.0.50" provider-name="Ivar Brandt">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.19.1" />
+        <import addon="script.module.pil" version="1.1.7" />
+    </requires>
+    <extension point="xbmc.python.library" library="resources/lib/default.py" />
+    <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <news />
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+        </assets>
+        <description lang="en_GB">Nimbus Helper for the Nimbus Skin.</description>
+        <description lang="en_NZ">Nimbus Helper for the Nimbus Skin.</description>
+        <description lang="en_US">Nimbus Helper for the Nimbus Skin.</description>
+    </extension>
+</addon><addon id="skin.altus" version="0.6.0" name="Altus" provider-name="Ivar Brandt">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0" />
+		<import addon="resource.images.weathericons.white" version="0.0.1" />
+		<import addon="script.altus.helper" version="0.2.5" />
+	</requires>
+	<extension defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin" debugging="false">
+		
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<assets>
+			<icon>resources/icon.jpg</icon>
+			
+		</assets>
+		<summary lang="en_GB">Altus skin by Ivar Brandt</summary>
+		<summary lang="en_NZ">Altus skin by Ivar Brandt</summary>
+		<summary lang="en_US">Altus skin by Ivar Brandt</summary>
+		<description lang="en_GB">Altus Skin</description>
+		<description lang="en_NZ">Altus Skin</description>
+		<description lang="en_US">Altus Skin</description>
+	</extension>
+</addon><addon id="skin.nimbus" version="0.1.38" name="Nimbus" provider-name="Ivar Brandt">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0" />
+		<import addon="script.nimbus.helper" version="0.0.50" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+		</assets>
+		<summary lang="en_GB">Nimbus skin by Ivar Brandt</summary>
+		<summary lang="en_NZ">Nimbus skin by Ivar Brandt</summary>
+		<summary lang="en_US">Nimbus skin by Ivar Brandt</summary>
+		<description lang="en_GB">Nimbus Skin</description>
+		<description lang="en_NZ">Nimbus Skin</description>
+		<description lang="en_US">Nimbus Skin</description>
+	</extension>
+</addon></addons>
